@@ -172,7 +172,7 @@ function showResults(){
         resultMessage.textContent = "You're Diamond.";
     }
     else {
-        resultMessage.textContent = "You need to hit range.";
+        resultMessage.textContent = "You need to hit the range.";
     }
 }
 
@@ -181,4 +181,5 @@ function restartQuiz() {
 
     resultScreen.classList.remove("active");
     startScreen.classList.add("active");
+
 }
